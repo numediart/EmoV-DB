@@ -51,7 +51,7 @@ The Emotional Voices Database: Towards Controlling the Emotional Expressiveness 
 A description of the database here:
 https://arxiv.org/pdf/1806.09514.pdf
 
-Please reference these papers when using this database:
+Please reference this paper when using this database:
 
 Bibtex:
 ```
