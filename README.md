@@ -47,7 +47,7 @@ The Emotional Voices Database: Towards Controlling the Emotional Expressiveness 
 
 - File naming (annotation_folder): anger_1-28.TextGrid - 1) first word (emotional style), 1-28- annotation doc range
 
-# Reference
+# References
 A description of the database here:
 https://arxiv.org/pdf/1806.09514.pdf
 
