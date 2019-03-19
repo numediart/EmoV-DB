@@ -37,5 +37,8 @@ Bibtex:
 
 
 # Download link
+Sorted version (recommended):
+https://mega.nz/#F!KBp32apT!gLIgyWf9iQ-yqnWFUFuUHg
 
+Not sorted version:
 http://www.coe.neu.edu/Research/AClab/Speech%20Data/
