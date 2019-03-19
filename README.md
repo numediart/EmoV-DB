@@ -55,14 +55,6 @@ Please reference these papers when using this database:
 
 Bibtex:
 ```
-@article{tits2019exploring,
-  title={Exploring Transfer Learning for Low Resource Emotional TTS},
-  author={Tits, No{\'e} and Haddad, Kevin El and Dutoit, Thierry},
-  journal={arXiv preprint arXiv:1901.04276},
-  year={2019}
-}
-```
-```
 @article{adigwe2018emotional,
   title={The emotional voices database: Towards controlling the emotion dimension in voice generation systems},
   author={Adigwe, Adaeze and Tits, No{\'e} and Haddad, Kevin El and Ostadabbas, Sarah and Dutoit, Thierry},
