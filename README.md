@@ -9,7 +9,7 @@ https://mega.nz/#F!KBp32apT!gLIgyWf9iQ-yqnWFUFuUHg
 Not sorted version:
 http://www.coe.neu.edu/Research/AClab/Speech%20Data/
 
-## Force alignments with gentle
+## Forced alignments with gentle
 "It is the process of taking the text transcription of an audio speech segment and determining where in time particular words occur in the speech segment." [source](http://www.voxforge.org/home/docs/faq/faq/what-is-forced-alignment)
 
 It also allows to separate verbal and non-verbal vocalizations (laughs, yawns, etc.)
