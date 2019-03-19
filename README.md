@@ -18,9 +18,23 @@ The Emotional Voices Database: Towards Controlling the Emotional Expressiveness 
 
 - File naming (annotation_folder): anger_1-28.TextGrid - 1) first word (emotional style), 1-28- annotation doc range
 
+# Reference
 Please reference the paper below when using this database:
 
 A. Adigwe, N. Tits, K. El Haddad, S. Ostadabbas, T. Dutoit, “The Emotional Voices Database: Towards Controlling the Emotion Dimension in Voice Generation Systems,” 2018. (arXiv preprint:1806.09514)
+
+Bibtex:
+
+```
+@article{adigwe2018emotional,
+  title={The emotional voices database: Towards controlling the emotion dimension in voice generation systems},
+  author={Adigwe, Adaeze and Tits, No{\'e} and Haddad, Kevin El and Ostadabbas, Sarah and Dutoit, Thierry},
+  journal={arXiv preprint arXiv:1806.09514},
+  year={2018}
+}
+```
+
+
 
 # Download link
 
