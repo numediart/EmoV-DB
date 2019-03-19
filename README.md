@@ -1,4 +1,30 @@
 # EmoV-DB
+
+
+# How to use
+## Download link
+Sorted version (recommended):
+https://mega.nz/#F!KBp32apT!gLIgyWf9iQ-yqnWFUFuUHg
+
+Not sorted version:
+http://www.coe.neu.edu/Research/AClab/Speech%20Data/
+
+## 
+
+1. Go to https://github.com/lowerquality/gentle
+2. Clone the repo
+3. In Getting started, use the 3rd option: .\install.sh
+4. Copy align_db.py in the repository
+5. In align_db.py, change the "path" variable so that it corresponds to the path of EmoV-DB. 
+6. Launch command "python align_db.py". You'll probably have to install some packages to make it work
+7. It should create a folder called "alignments" in the repo, with the same structure as the database, containing a json file for each sentence of the database.
+
+8. The function "get_start_end_from_json(path)" allows you to extract start and end of the computed force alignment
+9. you can play a file with function "play(path)"
+10. you can play the part of the file in which there is speech according to the forced alignment with "play_start_end(path, start, end)"
+
+# Overview of data
+
 The Emotional Voices Database: Towards Controlling the Emotional Expressiveness in Voice Generation Systems
 
 - This dataset is built for the purpose of emotional speech synthesis. The transcript were based on the CMU arctic database: http://www.festvox.org/cmu_arctic/cmuarctic.data.
@@ -43,10 +69,3 @@ Bibtex:
 ```
 
 
-
-# Download link
-Sorted version (recommended):
-https://mega.nz/#F!KBp32apT!gLIgyWf9iQ-yqnWFUFuUHg
-
-Not sorted version:
-http://www.coe.neu.edu/Research/AClab/Speech%20Data/
