@@ -1,5 +1,7 @@
 # EmoV-DB
 
+# See also
+https://github.com/noetits/ICE-Talk for controllable TTS
 
 # How to use
 ## Download link
@@ -63,5 +65,4 @@ Bibtex:
 }
 ```
 
-# Other repositories
-check out https://github.com/noetits/ICE-Talk for controllable TTS
+
