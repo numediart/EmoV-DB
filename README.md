@@ -63,4 +63,5 @@ Bibtex:
 }
 ```
 
-
+# Other repositories
+check out https://github.com/noetits/ICE-Talk for controllable TTS
