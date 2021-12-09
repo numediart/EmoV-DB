@@ -5,7 +5,10 @@ https://github.com/noetits/ICE-Talk for controllable TTS
 
 # How to use
 ## Download link
-Sorted version (recommended):
+Sorted version (recommended), **new link**:
+https://openslr.org/115/
+
+old link (slow download) but gives ou the folder structure needed to use "load_emov_db()" function: 
 https://mega.nz/#F!KBp32apT!gLIgyWf9iQ-yqnWFUFuUHg
 
 Not sorted version:
