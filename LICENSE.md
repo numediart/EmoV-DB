@@ -1,4 +1,4 @@
 By downloading or using the EmoV-DB Dataset, you are agreeing to the “Non-commercial Purposes” condition. “Non-commercial Purposes” means research, teaching, scientific publication and personal experimentation. Non-commercial Purposes include use of the Dataset to perform benchmarking for purposes of academic or applied research publication. Non-commercial Purposes does not include purposes primarily intended for or directed towards commercial advantage or monetary compensation, or purposes intended for or directed towards litigation, licensing, or enforcement, even in part. EmoV-DB dataset is provided as-is, is experimental in nature, and not intended for use by, with, or for the diagnosis of human subjects for incorporation into a product.
 
-If you wish to make use of the EmoV-DB Dataset for Commercial Purpose, please contact Prof. Thierry Dutoit.
-https://sites.google.com/view/thierrydutoit
+If you wish to make use of the EmoV-DB Dataset for Commercial Purpose, please contact Prof. Sarah Ostadabbas
+https://coe.northeastern.edu/people/ostadabbas-sarah/
