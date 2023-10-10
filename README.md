@@ -39,7 +39,7 @@ dataset.prepare_mfa()
 
 Then in a shell terminal:
 ```
-mfa align EMOV-DB/ english_us_arpa english_us_arpa EMOV_mfa_textgrids
+mfa align EMOV-DB/ english_us_arpa english_us_arpa EMOV
 ```
 
 Then the "convert" function is the function to remove non-verbal vocalizations that would be before/after the whole sentence. It just reads the results of phone alignment and extract the start timing of the first phoneme and the end timing of the last phoneme to cut the audio and rewrite it.
