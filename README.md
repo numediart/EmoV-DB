@@ -14,10 +14,46 @@ https://mega.nz/#F!KBp32apT!gLIgyWf9iQ-yqnWFUFuUHg
 Not sorted version:
 http://www.coe.neu.edu/Research/AClab/Speech%20Data/
 
-## Forced alignments with gentle
+## Forced alignments
 "It is the process of taking the text transcription of an audio speech segment and determining where in time particular words occur in the speech segment." [source](http://www.voxforge.org/home/docs/faq/faq/what-is-forced-alignment)
 
-It also allows to separate verbal and non-verbal vocalizations (laughs, yawns, etc.)
+It also allows to separate verbal and non-verbal vocalizations (laughs, yawns, etc.) that are before/after the sentence. 
+Note that it might also be possible to detect non-verbal vocalizations inside sentences when they are not mixed with speech (e.g. chuckle between words) with "sil" or "spn" tokens of Montreal-Forced-Aligner. But this has not been experimented on our end.
+
+
+
+### Alignment with Montreal Forced Aligner (MFA)
+First install MFA
++ [Installation](https://montreal-forced-aligner.readthedocs.io/en/latest/installation.html)
+
+Then use the steps below. It is based on the instructions of [Phone alignment of a dataset](https://montreal-forced-aligner.readthedocs.io/en/latest/first_steps/index.html#first-steps-align-pretrained) with their acoustic and g2p models.
+To use them, you need download models as in [here](https://montreal-forced-aligner.readthedocs.io/en/latest/user_guide/models/index.html). In this example, we use `english_us_arpa`, but you could use their IPA model as well.
+
+In a python terminal:
+```
+from emov_mfa_alignment import Emov
+dataset = Emov()
+dataset.download()
+dataset.prepare_mfa()
+```
+
+Then in a shell terminal:
+```
+mfa align EMOV-DB/ english_us_arpa english_us_arpa EMOV_mfa_textgrids
+```
+
+Then the "convert" function is the function to remove non-verbal vocalizations that would be before/after the whole sentence. It just reads the results of phone alignment and extract the start timing of the first phoneme and the end timing of the last phoneme to cut the audio and rewrite it.
+
+```
+from emov_mfa_alignment import Emov
+dataset = Emov()
+dataset.convert()
+```
+
+### Alignment with gentle
+Older alternative, performance should be less good than with MFA
+<details>
+  <summary>Click to show process</summary>
 
 1. Go to https://github.com/lowerquality/gentle
 2. Clone the repo
@@ -30,6 +66,8 @@ It also allows to separate verbal and non-verbal vocalizations (laughs, yawns, e
 8. The function "get_start_end_from_json(path)" allows you to extract start and end of the computed force alignment
 9. you can play a file with function "play(path)"
 10. you can play the part of the file in which there is speech according to the forced alignment with "play_start_end(path, start, end)"
+
+</details>
 
 # Overview of data
 
